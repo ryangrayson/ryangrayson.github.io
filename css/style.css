@@ -55,7 +55,7 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
 
-    overflow-y: scroll; /* maybe fix to mobile view?? */
+    -webkit-background-size: cover; /* maybe fix to mobile view?? */
     
     color: var(--clr-dark);
     margin: 0;

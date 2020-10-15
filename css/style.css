@@ -41,6 +41,9 @@
 
 html{
     scroll-behavior: smooth;
+    
+   
+
 }
 
 
@@ -50,7 +53,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+
+    overflow-y: scroll; /* maybe fix to mobile view?? */
     
     color: var(--clr-dark);
     margin: 0;

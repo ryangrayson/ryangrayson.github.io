@@ -462,10 +462,47 @@ header {
 }
 
 
+/* Link to Lowbrow Article */
+
+
+
+.section--lowbrow {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.lowbrow__img {
+    padding: 8px;
+    color: none;
+}
+
+.lowbrow__img:hover{
+       opacity: .75;
+}
+
+.lowbrow__title {
+    color: rgb(235, 208, 99);
+    text-align: center;
+}
+
+.lowbrow__description{
+    color: white;
+    text-align: center;
+}
+
+.lowbrow__body {
+    color:white;
+    font-size: 120%;
+    
+    background-color: transparent;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+
 /* RESUME */
 
 .resume {
-    background: rgba(0, 0, 0, 0.753);
+    background: transparent;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -529,7 +566,7 @@ header {
 /* FOOTER */
 
 .footer {
-    background: transparent;
+    background: rgba(0,0,0,.75);
     color: rgb(235, 208, 99);
     text-align: center;
     padding: 3.5em 0;
